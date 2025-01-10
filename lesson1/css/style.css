@@ -120,7 +120,7 @@ body {
   height: 1500;
   border: 3px;
   box-sizing: border-box;
-  background: url(/img/BcgrndImgs.svg) 50% 30% / 100% no-repeat, linear-gradient(45deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+  background: url(./img/BcgrndImgs.svg) 50% 30% / 100% no-repeat, linear-gradient(45deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
 }
 
 
@@ -187,7 +187,7 @@ body {
 
 .header__user-nav::before {
   content: "";
-  background: url(/img/Profile.svg) no-repeat;
+  background: url(./img/Profile.svg) no-repeat;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -509,7 +509,7 @@ body {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background: url(/img/Right.png) 0 2px / 100% 100%
+  background: url(./img/Right.png) 0 2px / 100% 100%
 }
 
 .directions__list-item--empty {
@@ -852,7 +852,7 @@ element.style {
   position: absolute;
   width: 28px;
   height: 20px;
-  background: url(/img/braces.svg) no-repeat;
+  background: url(./img/braces.svg) no-repeat;
   left: -58px;
 }
 
@@ -1051,7 +1051,7 @@ element.style {
   content: '';
   width: 90px;
   height: 90px;
-  background: url(/img/decor/shapes.svg);
+  background: url(./img/decor/shapes.svg);
   top: 340px;
   left: 75px;
 }
@@ -1264,7 +1264,7 @@ element.style {
   content: '';
   width: 16px;
   height: 16px;
-  background: url(/img/svg/Calendar.svg) 0 0 / 100% no-repeat;
+  background: url(./img/svg/Calendar.svg) 0 0 / 100% no-repeat;
   margin-right: 8px;
   margin-top: 2px;
 }
@@ -1282,7 +1282,7 @@ element.style {
   content: '';
   width: 16px;
   height: 16px;
-  background: url(/img/svg/Clock.svg) 0 0 / 100% no-repeat;
+  background: url(./img/svg/Clock.svg) 0 0 / 100% no-repeat;
   margin-right: 8px;
   margin-top: 2px;
 }
@@ -1322,7 +1322,7 @@ element.style {
   content: '';
   width: 24px;
   height: 24px;
-  background: url(/img/svg/Right.svg)
+  background: url(./img/svg/Right.svg)
 }
 
 /*******************INFO*********************/
@@ -1363,7 +1363,7 @@ element.style {
   content: '';
   width: 24px;
   height: 24px;
-  background: url(/img/svg/Chat.svg);
+  background: url(./img/svg/Chat.svg);
   position: absolute;
   left: -36px;
 }
@@ -1383,7 +1383,7 @@ element.style {
   content: '';
   width: 24px;
   height: 24px;
-  background: url(/img/svg/outline.svg);
+  background: url(./img/svg/outline.svg);
   position: absolute;
   left: -36px;
 }
@@ -1532,7 +1532,7 @@ element.style {
 }
 
 .questions__form-default:checked+.questions__form-custom {
-  background: url(/img/svg/check.svg) no-repeat 50% 50%, var(--primary);
+  background: url(./img/svg/check.svg) no-repeat 50% 50%, var(--primary);
   border: 1px solid var(--primary);
 }
 

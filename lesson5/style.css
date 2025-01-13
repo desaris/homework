@@ -1,0 +1,40 @@
+.first__text {
+    font-family: "Open Sans", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.second__text {
+    text-decoration: line-through;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.third__text {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+.four__text span {
+    word-spacing: 30px;
+    border-top: 2px dashed purple;
+    color: purple;
+}
+.four__text {
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.five__text {
+    margin-top: 10px;
+}
+
+.five__text span {
+    letter-spacing: 5px;
+    border-bottom: 3px double black
+}

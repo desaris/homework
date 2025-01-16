@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/gabriola.ttf">
+    <link rel="stylesheet" href="./fonts/Montserrat-Regular.ttf">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <div class="overlay hidden-special"></div>
+    <div class="popup hidden">
+        <div class="popup__close-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.75" y="0.75" width="22.5" height="22.5" rx="11.25" stroke="#E1D9E1" stroke-width="1.5" />
+                <path
+                    d="M6.75781 17.2433L12.0008 12.0003L17.2438 17.2433M17.2438 6.75732L11.9998 12.0003L6.75781 6.75732"
+                    stroke="#E1D9E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+        <div class="popup__title">Удиви своих близких вкусными капкейками </div>
+        <div class="popup__subtitle">Оставь свой e-mail, и мы вышлем рецепт на почту</div>
+        <form>
+            <input class="popup__email" type="email" placeholder="E-mail">
+            <input class="popup__button" type="button" value="Получить подарок">
+        </form>
+    </div>
+    <section class="hero__section">
+        <div class="container">
+            <header>
+                <div class="header__row">
+                    <img src="/img/wakebake.svg" alt="">
+                    <nav class="header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">Программа обучения</li>
+                            <li class="nav__list-item">Галерея</li>
+                            <li class="nav__list-item">Отзывы</li>
+                            <li class="nav__list-item">Контакты</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="hero__row">
+                <div class="hero__start">
+                    <p class="hero__start-par">старт • 26.06.2023</p>
+                    <h1 class="hero__start-heading">Научись печь торты и десерты с нуля</h1>
+                    <p class="hero__start-desc">За 8 практических занятий ты получишь новые возможности
+                        для самореализации и любимое дело</p>
+                    <button class="hero__start-button">Записаться на курс</button>
+                </div>
+                <div class="hero__video">
+                    <div class="img__wrapper"><img class="hero__img" src="/img/rightsideimg.png" alt="">
+                        <div class="hero__video-play">
+                            <div class="img__play-wrapper"><img src="/img/playright.svg" class="hero__play" alt="">
+                            </div>
+                            <p>Посмотри, как готовятся наши торты</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about__us">
+        <div class="container about__us-container">
+            <div class="about__first-block">
+                <div class="about__us-card"><img src="/img/aboutus.png" alt="">
+                    <div class="about__present"><img src="/img/present.svg" alt="">
+                        <p class="about__present-par">Нажми на подарок, чтобы получить наш фирменный рецепт</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__second-block">
+                <h3 class="about__second-heading">Наша школа —</h3>
+                <p class="about__second-heading--desc">это уютный дом для начинающих кондитеров</p>
+                <p class="about__second-desc">С нами ты погрузишься в удивительный мир кондитерского искусства, получишь
+                    новые знания и профессиональные навыки! Обретёшь веру в свои силы, научишься приготовлению
+                    разнообразных современных и классических десертов</p>
+                <div class="about__list-wrapper">
+                    <div class="about__list-item about__list-item--special">
+                        <img src="/img/listlogo.svg" alt="">
+                        <p class="about__list-item--par">Живое общение с наставниками и одногруппниками</p>
+                    </div>
+                    <div class="about__list-item about__list-item--special">
+                        <img src="/img/listlogo.svg" alt="">
+                        <p class="about__list-item--par">Предоставление всех необходимых материалов</p>
+                    </div>
+                    <div class="about__list-item">
+                        <img src="/img/listlogo.svg" alt="">
+                        <p class="about__list-item--par">Небольшие группы до 6 человек</p>
+                    </div>
+                    <div class="about__list-item">
+                        <img src="/img/listlogo.svg" alt="">
+                        <p class="about__list-item--par">Большие аудитории для обучения</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="program__section">
+        <div class="container">
+            <div class="program__main">
+                <div class="program__about">
+                    <h4 class="program__heading">Программа обучения</h4>
+                    <p class="program__desc">Продолжительность курса — 4 недели Программа обучения состоит из 8 модулей
+                        На каждое занятие отводится по 6 часов </p>
+                </div>
+                <ul class="program__tabs">
+                    <li class="program__tabs-item tab-active">Неделя 1</li>
+                    <li class="program__tabs-item">Неделя 2</li>
+                    <li class="program__tabs-item">Неделя 3</li>
+                    <li class="program__tabs-item">Неделя 4</li>
+                </ul>
+            </div>
+            <div class="program__accordion-wrapper">
+                <div class="program__category first__category active">
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Начало кондитерского пути и создание первого торта</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Организация рабочего места</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Подготовка необходимого инвентаря</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Выбор необходимых продуктов</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Советы по закупке необходимых продуктов и инвентаря
+                                        </p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Обзор хранения и заготовки сырья</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь морковный торт с солёной карамелью</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Медовик и капкейки</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__category second__category">
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Песочное тесто и чизкейк</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Бисквиты</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__category third__category">
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Дрожжевое тесто</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Работа с кремами</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__category fourth__category">
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Mille-feuille, или Наполеон</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program__accordion">
+                        <div class="program__accordion-desc--wrapper">
+                            <h5 class="program__accordion-desc">Завершение курса</h5>
+                            <div class="program__img-wrapper"><img src="/img/arrownext.svg" alt=""></div>
+                        </div>
+                        <div class="program__accordion-inside accordion__hidden">
+                            <div class="program__accordion-theory">
+                                <h6 class="program__accordion-heading">ТЕОРИЯ:</h6>
+                                <ul class="theory__list">
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление и украшение капкейков</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Изготовление крема и конфи</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Приготовление медовых коржей для торта</p>
+                                    </li>
+                                    <li class="theory__list-item"><img src="/img/theorysvg.svg" alt="">
+                                        <p class="theory__list-p">Пропитка коржей и сборка торта</p>
+                                    </li>
+                                </ul>
+                                <div class="program__accordion-practice">
+                                    <h6 class="program__accordion-heading">ПРАКТИКА:</h6>
+                                    <p class="practice__par">Испечёшь капкейки, приготовишь крем и конфи, а также
+                                        сделаешь своё первое пирожное — медовик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__discount">
+                <div class="program__discount-wrapper">
+                    <div class="program__discount-row">
+                        <div class="program__discount-card">
+                            <div class="program__discount-card--wrapper">
+                                <p class="discount__heading">Успей получить скидку</p>
+                                <span class="discount__percentage">-30%</span>
+                                <p class="discount__date-remaining">до 1 июня</p>
+                            </div>
+                        </div>
+                        <div class="program__discount-column">
+                            <div class="program__without-discount--price">
+                                <p class="without__discount__price-text">Стоимость курса без скидки</p>
+                                <p class="without__discount__price">32 000 руб.</p>
+                            </div>
+                            <div class="program__discount-price">
+                                <p class="discount__price-text">Стоимость курса со скидкой</p>
+                                <p class="discount__price">22 400 руб.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program__button">Оставить заявку</div>
+                </div>
+
+                <div class="img__cake-wrapper"><img src="./img/cake.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery__section">
+        <div class="container">
+            <div class="gallery__top ">
+                <div class="gallery__top-img"><img src="./img/puncakes.png" alt=""></div>
+                <div class="gallery__top-text">
+                    <h4 class="gallery__top-heading">Фотогалерея</h4>
+                    <p class="gallery__top-par">Для комфортного обучения сделаны просторные аудитории,
+                        где предоставляется
+                        всё необходимое оборудование. Здесь наши ученики создают кулинарные шедевры под присмотром
+                        опытных наставников</p>
+                </div>
+                <div class="slider__buttons">
+                    <div class="gallery__left "><svg class="gallery__left-arrow" width="36" height="36"
+                            viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="18" cy="18" r="17" stroke="#FFA55C" stroke-width="2" />
+                            <mask id="mask0_141_427" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="8"
+                                width="20" height="20">
+                                <rect x="8" y="8" width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_141_427)">
+                                <path
+                                    d="M21.4793 18.833H11.3335V17.1663H21.4793L16.8127 12.4997L18.0002 11.333L24.6668 17.9997L18.0002 24.6663L16.8127 23.4997L21.4793 18.833Z"
+                                    fill="#FFA55C" />
+                            </g>
+                        </svg>
+
+                    </div>
+                    <p class="slider__pages">1/7</p>
+                    <div class="gallery__right "><img src="./img/rightarrow.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="gallery__slider swiper-wrapper">
+                    <div class="slider__item swiper-slide"><img src="./img/img3.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img4.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img1.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img2.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img4.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img2.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img3.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img1.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img4.png" alt=""></div>
+                    <div class="slider__item swiper-slide"><img src="./img/img2.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews__section">
+        <div class="container">
+            <div class="reviews__top">
+                <h4 class="reviews__heading">Обратная связь <br> от наших учеников</h4>
+                <div class="reviews__sub-wrapper">
+                    <p class="reviews__subtitle">Все наши ученики абсолютно разные, и мы к каждому из них находим
+                        индивидуальный подход. Именно
+                        поэтому все остаются довольны не только кулинарными результатами, но и атмосферой обучения
+                        в целом
+                    </p>
+                    <div class="reviews__slider-buttons"><img class="reviews__left" src="./img/reviewsleft.svg"
+                            alt=""><img src="./img/reviewsright.svg " class="reviews__right" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__container">
+            <div class="swiper swiperTwo">
+                <div class="reviews__slider swiper-wrapper">
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__slide-social">
+                            <div class="slide__img-wrapper"><img src="./img/avatarmain.png" alt=""></div>
+                            <p class="slide__social-name">Елизавета</p>
+                            <div class="slide__socials">
+                                <img src="./img/basil_instagram-outline.svg" alt="">
+                                <p class="slide__socials-par">lizzy_av</p>
+                            </div>
+                        </div>
+                        <div class="reviews__slide-text">
+                            <p class="reviews__slide-heading">Для меня действительно сбылась мечта!</p>
+                            <p class="reviews__slide-subtitle">Это были одни из лучших месяцев моей жизни. Для меня
+                                действительно сбылась мечта, к которой я шла уже давно, но не хватало опыта и знаний.
+                                Это все дала мне ваша школа. В рецептурах все довольно понятно разъясняется, если есть
+                                вопросы, их всегда можно задать, что не мало важно.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container reviews__navigation">
+            <div class="reviews__scrollbar"></div>
+        </div>
+    </section>
+    <section class="application__section">
+        <div class="container">
+            <div class="application__wrapper">
+                <div class="application__row">
+                    <div class="application__img"><img src="./img/cakeapplic.png" alt=""></div>
+                    <div class="application__request">
+                        <h4 class="application__request-heading">Оставить заявку на обучение</h4>
+                        <p class="application__request-subtitle">Заполни контактные данные, и наш менеджер свяжется с
+                            тобой
+                            в
+                            ближайшее время</p>
+                        <form>
+                            <input type="text" class="application__request-name" placeholder="Имя">
+                            <input type="tel" class="application__request-tel" placeholder="Телефон">
+                            <label class="custom-radio">
+                                <input type="checkbox" name="politics" value="agree">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.75" y="0.75" width="14.5" height="14.5" rx="3.25" stroke="#AC907A"
+                                        stroke-width="1.5" />
+                                </svg>
+                                <span class="application__request-desc">Нажимая на кнопку, вы соглашаетесь
+                                    с <a>политикой
+                                        конфиденциальности</a></span>
+                            </label>
+                            <input class="application__request-button" type="button" value="Записаться на курс">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__socials">
+                    <img src="./img/wakebakewhite.svg">
+                    <p>Школа кондитерского искусства</p>
+                    <div class="footer__socials-row"><img src="./img/instagramwhite.svg" alt=""><img
+                            src="./img/ant-design_youtube-outlined.svg" alt=""><img src="/img/basil_vk-outline.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <a href="#">Программа обучения</a>
+                    <a href="#">Галерея</a>
+                    <a href="#">Отзывы</a>
+                </div>
+                <div class="footer__address">
+                    <div class="footer__time"><img src="./img/ph_clock.svg" alt="">
+                        <p>ПН-ПТ 10:00-20:00</p>
+                    </div>
+                    <div class="footer__geo"><img src="./img/carbon_location.svg" alt="">
+                        <p>г. Москва, ул. Землянская, 9Б </p>
+                    </div>
+                </div>
+                <div class="footer__consult">
+                    <div class="footer__tel">
+                        <p class="footer__tel-subheading">Бесплатная консультация</p>
+                        <p class="footer__tel-number">+7 (906) 550-55-55</p>
+                    </div>
+                    <div class="footer__rights"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.625C10.1458 2.625 8.33324 3.17483 6.79153 4.20497C5.24982 5.23511 4.04821 6.69929 3.33863 8.41234C2.62906 10.1254 2.44341 12.0104 2.80514 13.829C3.16688 15.6475 4.05976 17.318 5.37088 18.6291C6.682 19.9402 8.35246 20.8331 10.171 21.1949C11.9896 21.5566 13.8746 21.3709 15.5877 20.6614C17.3007 19.9518 18.7649 18.7502 19.795 17.2085C20.8252 15.6668 21.375 13.8542 21.375 12C21.3723 9.51443 20.3837 7.13145 18.6261 5.37389C16.8686 3.61633 14.4856 2.62773 12 2.625ZM12 20.625C10.2941 20.625 8.62658 20.1192 7.20821 19.1714C5.78984 18.2237 4.68435 16.8767 4.03154 15.3006C3.37874 13.7246 3.20793 11.9904 3.54073 10.3173C3.87353 8.64426 4.69498 7.10743 5.90121 5.9012C7.10744 4.69498 8.64426 3.87352 10.3174 3.54073C11.9904 3.20793 13.7246 3.37873 15.3006 4.03154C16.8767 4.68434 18.2237 5.78983 19.1714 7.20821C20.1192 8.62658 20.625 10.2941 20.625 12C20.6225 14.2867 19.713 16.4791 18.0961 18.0961C16.4791 19.713 14.2867 20.6225 12 20.625ZM15.3 14.4759C14.7804 15.1683 14.0562 15.6797 13.2298 15.9376C12.4035 16.1956 11.5169 16.187 10.6957 15.9131C9.87451 15.6393 9.16028 15.114 8.65416 14.4117C8.14805 13.7094 7.87571 12.8657 7.87571 12C7.87571 11.1343 8.14805 10.2906 8.65416 9.58831C9.16028 8.88601 9.87451 8.36073 10.6957 8.08687C11.5169 7.813 12.4035 7.80443 13.2298 8.06237C14.0562 8.32031 14.7804 8.83168 15.3 9.52406C15.3296 9.56346 15.3512 9.6083 15.3635 9.65603C15.3757 9.70376 15.3785 9.75344 15.3716 9.80223C15.3646 9.85103 15.3482 9.89798 15.3231 9.94041C15.298 9.98284 15.2649 10.0199 15.2255 10.0495C15.1861 10.0791 15.1412 10.1007 15.0935 10.113C15.0458 10.1253 14.9961 10.128 14.9473 10.1211C14.8985 10.1142 14.8516 10.0977 14.8091 10.0726C14.7667 10.0476 14.7296 10.0144 14.7 9.975C14.275 9.40832 13.6825 8.98972 13.0063 8.77852C12.3302 8.56731 11.6047 8.57419 10.9327 8.79819C10.2607 9.0222 9.67624 9.45196 9.26206 10.0266C8.84788 10.6012 8.625 11.2916 8.625 12C8.625 12.7084 8.84788 13.3988 9.26206 13.9734C9.67624 14.548 10.2607 14.9778 10.9327 15.2018C11.6047 15.4258 12.3302 15.4327 13.0063 15.2215C13.6825 15.0103 14.275 14.5917 14.7 14.025C14.7598 13.9454 14.8488 13.8929 14.9473 13.8789C15.0458 13.8649 15.1459 13.8907 15.2255 13.9505C15.305 14.0103 15.3576 14.0992 15.3716 14.1978C15.3855 14.2963 15.3598 14.3964 15.3 14.4759Z" fill="#DEC5B1" />
+                      </svg><p>Все права защищены</p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

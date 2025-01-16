@@ -39,17 +39,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let tabs = document.querySelectorAll('.program__tabs-item')
     tabs.forEach((tab, tabIndex) => {
         tab.addEventListener('click', function () {
-            // Удаляем активный класс у всех табов
             tabs.forEach(item => {
                 item.classList.remove('tab-active');
             });
-            // Добавляем активный класс к текущему табу
             tab.classList.add('tab-active');
-            // Скрываем все категории
             category.forEach(content => {
                 content.classList.remove('active');
             });
-            // Показываем контент для выбранной категории
             category[tabIndex].classList.add('active');
         });
     });
@@ -69,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     });
 
-    // Функция для окраски левой кнопки при контакте с слайдером
+    // Функция для окраски левой кнопки при контакте с первым слайдером
     const prevButton = document.querySelector('.gallery__left');
     function updatePrevButtonColor() {
         if (!prevButton.classList.contains('swiper-button-disabled')) {
@@ -85,7 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // ВТОРОЙ СВАЙПЕР //
-
     const swiperTwo = new Swiper(".swiperTwo", {
         slidesPerView: 3,
         freeMode: true,
@@ -102,21 +97,19 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         on: {
             init: function () {
-                // Добавляем класс .scale ко всем слайдам, кроме центрального
                 const slides = this.slides;
                 slides.forEach((slide, index) => {
-                    if (index !== this.activeIndex + 1) { // Добавляем класс ко всем, центрального
+                    if (index !== this.activeIndex + 1) { 
                         slide.classList.add('scale');
                     }
                 });
             },
             slideChange: function () {
-                // Удаляем класс .scale со всех слайдов перед добавлением
                 this.slides.forEach(slide => slide.classList.remove('scale'));
 
                 const slides = this.slides;
                 slides.forEach((slide, index) => {
-                    if (index !== this.activeIndex + 1) { // Добавляем класс ко всем, центрального
+                    if (index !== this.activeIndex + 1) {
                         slide.classList.add('scale');
                     }
                 });

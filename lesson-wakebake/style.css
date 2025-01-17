@@ -931,7 +931,7 @@ header {
 .reviews__slide {
     background: var(--fonovyy);
     border-radius: 20px;
-    max-height: 330px;
+    height: auto;
     padding: 30px;
     display: flex;
 }

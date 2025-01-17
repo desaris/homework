@@ -817,6 +817,10 @@ header {
     justify-content: space-between;
 }
 
+.reviews__slider .swiper-slide-next {
+    width: 620px !important; 
+}
+
 .reviews__slider-buttons img:first-child {
     margin-right: 30px;
 }

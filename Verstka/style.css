@@ -2449,7 +2449,7 @@ footer {
     justify-items: center;
 }
 }
-@media (max-width: 1200px) {
+@media (min-width: 640px) and (max-width: 1200px) {
     .advantages__list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr); }

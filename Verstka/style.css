@@ -2467,3 +2467,8 @@ footer {
         margin-top: 60px
     }
 }
+@media (max-width: 1620px) {
+    .briefcase__pros-item {
+        display:none
+    }
+}

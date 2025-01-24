@@ -2508,7 +2508,7 @@ footer {
         flex-wrap: wrap
     }
     .answers__consult-button {
-        margin-top: 40px
+        margin: 40px 0px 80px 0px;
     }
 }
 

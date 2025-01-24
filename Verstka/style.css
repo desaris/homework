@@ -2477,3 +2477,14 @@ footer {
         margin-bottom: 20px
     }
 }
+@media (min-width: 640px) and (max-width: 1532px) {
+    .application__contacts-row {
+        flex-direction: column;
+    }
+    .application__contacts-row input {
+        margin-bottom: 30px
+    }
+    .application__contacts-row input:last-child {
+        margin-bottom: 0
+    }
+}

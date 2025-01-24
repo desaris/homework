@@ -2441,7 +2441,7 @@ footer {
         margin-bottom: 40px
     }
 }
-@media (max-width: 1440px) {
+@media (min-width: 1201px) and (max-width: 1440px) {
     .advantages__list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);

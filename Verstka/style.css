@@ -2448,5 +2448,12 @@ footer {
 @media (max-width: 1440px) {
     .advantages__list {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); }
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+}
+}
+@media (max-width: 1200px) {
+    .advantages__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
 }

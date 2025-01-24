@@ -821,6 +821,7 @@ body {
 .briefcase__first-row {
     padding-top: 104px;
     position: relative;
+    margin-bottom: 200px
 }
 
 #progress-input {
@@ -1851,6 +1852,7 @@ footer {
     .briefcase__row {
         justify-content: center;
         padding-bottom: 132px;
+        flex-wrap: wrap
     }
 
     .briefcase__button {
@@ -2353,6 +2355,9 @@ footer {
         box-shadow: none
     }
 
+    .briefcase__first-row {
+    margin-bottom: 0}
+
 
 
 
@@ -2409,5 +2414,23 @@ footer {
 
     .timer {
         text-wrap: nowrap;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1128px) {
+    .mobile__row {
+    flex-wrap: wrap; }
+    .mobile__subtitle {
+        margin-bottom: 40px
+    }
+    
+}
+
+@media (max-width: 1410px) {
+    .briefcase__row {
+        flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     }
 }

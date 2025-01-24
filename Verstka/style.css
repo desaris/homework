@@ -2467,8 +2467,8 @@ footer {
         margin-top: 60px
     }
 }
-@media (max-width: 1620px) {
-    .briefcase__pros-item {
+@media (min-width: 640px) and (max-width: 1620px) {
+    .hero__section-background {
         display:none
     }
 }

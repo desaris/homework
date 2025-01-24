@@ -2462,7 +2462,9 @@ footer {
 @media (min-width: 640px) and (max-width: 1200px) {
     .advantages__list {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); }
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    }
 }
 .briefcase__pros {
         flex-wrap: wrap;

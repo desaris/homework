@@ -2061,6 +2061,9 @@ footer {
         margin-bottom: 0;
     }
 
+    .steps__subtitle {
+   margin-bottom: 54px;}
+
     .footer__row {
         flex-wrap: wrap;
         justify-content: center;

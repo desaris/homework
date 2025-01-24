@@ -1651,6 +1651,10 @@ footer {
 
 @media (max-width: 640px) {
 
+    .appication__title {
+        margin-bottom: 44px
+    }
+
     .header__first-block {
         align-items: center;
     }

@@ -2417,14 +2417,7 @@ footer {
     }
 }
 
-@media (min-width: 640px) and (max-width: 1128px) {
-    .mobile__row {
-    flex-wrap: wrap; }
-    .mobile__subtitle {
-        margin-bottom: 40px
-    }
-    
-}
+
 
 @media (max-width: 1410px) {
     .briefcase__row {
@@ -2443,6 +2436,9 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    }
+    .mobile__subtitle {
+        margin-bottom: 40px
     }
 }
 @media (max-width: 1440px) {

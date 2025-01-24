@@ -1735,7 +1735,7 @@ footer {
 
     .header__buttons {
         align-self: center;
-        margin: 6px 0px 0px 0px;
+        margin: 6px -30px 0px 0px;
     }
 
     .burger__menu-wrapper {
@@ -1827,8 +1827,491 @@ footer {
         margin-top: 54px;
     }
 
+    .tools__title {
+        margin-bottom: 20px;
+    }
+
+    h2,
+    h3 {
+        font-size: 25px !important;
+    }
+
+    .advantages__list-title {
+        font-size: 14px;
+    }
+
+    .advantages__list-subtitle {
+        font-size: 9px;
+    }
+
+    .advantages__section {
+        padding-bottom: 80px;
+    }
+
+    .briefcase__row {
+        justify-content: center;
+        padding-bottom: 132px;
+    }
+
+    .briefcase__button {
+        font-size: 8px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .mobile__row {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .mobile__subtitle {
+        font-size: 12px;
+    }
+
+    .mobile__first-block {
+        margin-left: 0;
+    }
+
+    .mobile__sec-second--block {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .mobile__sec-buttons button {
+        padding: 13px 0px 13px 0px;
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .mobile__button-ios {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .mobile__button-android::after {
+        content: url(./img/android.svg);
+        position: absolute;
+        top: 7px;
+        left: -132px;
+        right: 0;
+        bottom: 0;
+    }
+
+
+    .mobile__img-wrapper {
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+
+    .mobile__sec-subtitle {
+        margin-bottom: 26px;
+    }
+
+    .mobile__button-ios::after {
+        top: 7px;
+        left: -110px;
+        right: 0;
+        bottom: 0;
+    }
+
+    .mobile__sec-subtitle {
+        font-size: 12px;
+    }
+
+    .mobile__sec-buttons {
+        flex-wrap: wrap;
+    }
+
+    .mobile__sec-block {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .mobile__iframe img {
+        width: 100%;
+        padding-bottom: 200px;
+    }
+
+    .mobile__second-row {
+        flex-wrap: wrap-reverse;
+    }
+
+    .answers__first-block {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .answers__row {
+        flex-wrap: wrap;
+    }
+
+    .answers__consult-button {
+        padding: 16px 0px 16px 0px;
+        font-size: 8px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .answers__accordion-question {
+        margin-right: 20px;
+        width: 32px;
+    }
+
+    .answers__accordion-hidden--arrow {
+        width: 28px;
+    }
+
+    .answers__accordion .answers__accordion-sticky {
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+
+    .answers__subtitle {
+        font-size: 12px;
+    }
+
+    .answers__accordion-item--open {
+        font-size: 10px;
+    }
+
+    .answers__accordion-item {
+        margin-bottom: 20px;
+    }
+
+    .answers__accordion-item--open {
+        margin-bottom: 20px;
+    }
+
+    .application__row {
+        flex-wrap: wrap;
+    }
+
+    .line-right {
+        display: none;
+    }
+
+    .application__text-title {
+        font-size: 14px;
+    }
+
+    .application__text-subtitle {
+        font-size: 12px;
+    }
+
+    .application__text-second {
+        margin: 0;
+    }
+
+    .application__second-step::after {
+        left: 110px;
+    }
+
+    .application__third-step::after {
+        left: 110px;
+    }
+
+    .first-step {
+        margin: 0;
+    }
+
+    .second-step {
+        margin: 0;
+    }
+
+    .third-step {
+        margin: 0;
+    }
+
+    .application__first-wrapper,
+    .application__second-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .application__first-wrapper,
+    .application__second-wrapper,
+    .application__third-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .application__text,
+    .application__text-second {
+        text-align: center;
+    }
+
+    .application__contacts-row {
+        flex-wrap: wrap;
+    }
+
+    .application__contacts-row input {
+        padding: 16px 0px 16px 10px;
+        font-size: 12px;
+        width: 100%;
+        border-radius: 4px;
+        border: 2px solid rgba(255, 255, 255, 0.29);
+        margin-bottom: 8px;
+    }
+
+    .application__contacts-row input:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__contacts button {
+        padding: 16px 0px 16px 10px;
+        font-size: 12px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .footer__row p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .header__wrapper {
+        width: auto;
+    }
+
+    .header__logo {
+        margin-right: 10px;
+    }
+
+    .footer__logo {
+        margin-bottom: 22px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__links {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__contacts-text {
+        margin: 0;
+    }
+
+    .application__contacts-row input::placeholder {
+        font-size: 12px;
+    }
+
+    .briefcase__pros {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .briefcase__pros-item {
+        margin-bottom: 40px;
+    }
+
+    .briefcase__second-row {
+        margin-top: 20px;
+    }
+
+    .briefcase__plate {
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+    .briefcase__title {
+        text-align: center;
+        font-size: 17px !important;
+    }
+
+    .pros__item-title {
+        font-size: 20px;
+    }
+
+    .pros__item-subtitle {
+        font-size: 16px;
+    }
+
+    .briefcase__subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .briefcase__row {
+        flex-wrap: wrap;
+    }
+
+    .slider-container {
+        width: 178px;
+    }
+
+    #progress-input {
+        width: 178px;
+    }
+
+    .briefcase__subheading {
+        font-size: 14px;
+    }
+
+    .briefcase__heading {
+        font-size: 18px;
+    }
+
+    .briefcase__inputs {
+        display: none;
+    }
+
+    .first-group {
+        top: 22px;
+        left: 0;
+    }
+
+    #progress-bar {
+        width: 310px;
+    }
+
+    .sec-group {
+        bottom: 138px;
+        left: 44px;
+        position: absolute;
+    }
+
+    .advantages__list {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .advantages__list-more {
+        font-size: 14px;
+    }
+
+    .advantages__list-item {
+        background: #1b1b1c;
+        border-radius: 5px;
+        padding: 46px 46px 0px 44px;
+        position: relative;
+        height: 339px;
+        width: 100%;
+    }
+
+    .steps__subtitle {
+        font-size: 12px;
+    }
+
+    .steps__item-first::before {
+        top: -56px;
+        left: 248px
+    }
+
+    .steps__item-instr {
+        font-size: 16px !important;
+    }
+
+    .steps__item-subtitle {
+        font-size: 12px !important;
+        padding-bottom: 40px;
+    }
+
+    .steps__item {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .steps__item:last-child {
+        margin: 0;
+    }
+
+    .steps-margin {
+        margin-bottom: 30px;
+    }
+
+    .steps__item-third::before {
+        position: absolute;
+        content: "";
+        background: url(./img/3.svg) no-repeat;
+        top: 18px;
+        left: 230px;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 110%;
+    }
+
+    .mobile__section {
+        padding-bottom: 160px;
+    }
+
+    .briefcase__section {
+        padding-bottom: 160px;
+    }
+
+    .steps__item-instr {
+        max-width: 250px;
+    }
+
+    .bonus__title::before {
+        position: absolute;
+        content: "БОНУС";
+        font-family: 'Gotham Pro Bold';
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 117%;
+        text-align: center;
+        background: linear-gradient(180deg, #4b5951 0%, rgba(61, 82, 70, 0.1) 98.9%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        top: -92px;
+        z-index: -1;
+        left: -2vw;
+        right: -2%;
+    }
+
+    .bonus__buttons button {
+        padding-bottom: 13px;
+        padding-top: 13px;
+        font-size: 8px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .bonus__button-get {
+        margin-bottom: 8px;
+    }
+
+    .bonus__section {
+        padding-top: 288px;
+        padding-bottom: 160px;
+    }
+
+    .answers__section {
+        padding-bottom: 160px;
+    }
+
+    .application__row {
+        padding-bottom: 42px;
+    }
+
+    .bonus__img-background {
+        top: 0;
+    }
+
+    .bonus__subtitle {
+        font-size: 12px;
+    }
+
     .invest__title {
-        font-size: 25px;
         width: 300px;
     }
 
@@ -1846,10 +2329,7 @@ footer {
         bottom: 0;
     }
 
-    .hero__section-background {
-        top: 500px;
-        left: -80px;
-    }
+
 
     .hero__button-download {
         padding: 12px 22px 12px 10px;
@@ -1870,20 +2350,37 @@ footer {
         box-shadow: none
     }
 
-    .tools__section,
-    .steps__section,
-    .bonus__section,
-    .advantages__section,
-    .briefcase__section,
-    .mobile__section,
-    .answers__section,
-    .application__section,
-    footer {
-        display: none;
+
+
+
+}
+
+@media (max-width: 420px) {
+    .hero__section-background {
+        top: 500px;
+        left: -80px;
     }
+}
 
+@media (min-width: 420px) and (max-width: 470px) {
+    .hero__section-background {
+        top: 450px;
+        left: -80px;
+    }
+}
 
+@media (min-width: 470px) and (max-width: 494px) {
+    .hero__section-background {
+        top: 400px;
+        left: -80px;
+    }
+}
 
+@media (min-width: 494px) and (max-width: 640px) {
+    .hero__section-background {
+        top: 321px;
+        left: -8px;
+    }
 }
 
 
@@ -1893,9 +2390,10 @@ footer {
     }
 }
 
-@media (min-width: 450px) and (max-width: 1540px) {
+
+@media (max-width: 330px) {
     .hero__section-background {
-        display: none;
+        top: 600px;
     }
 }
 
@@ -1905,9 +2403,8 @@ footer {
         align-items: center;
         margin-top: 15px;
     }
+
     .timer {
         text-wrap: nowrap;
     }
 }
-
-/* СДЕЛАТЬ JUSTIFY-CONTENT: SPACE-BETWEEN НА .header__wrapper */

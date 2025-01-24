@@ -2306,6 +2306,7 @@ footer {
 
     .application__row {
         padding-bottom: 42px;
+        justify-content: center;
     }
 
     .bonus__img-background {

@@ -2503,4 +2503,13 @@ footer {
         flex-wrap: wrap-reverse;}
 }
 
+@media (min-width: 640px) and (max-width: 1140px) {
+    .answers__row {
+        flex-wrap: wrap
+    }
+    .answers__consult-button {
+        margin-top: 40px
+    }
+}
+
 

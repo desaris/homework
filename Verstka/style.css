@@ -82,6 +82,7 @@ button:not(.advantages__list-more):hover {
 
 .header__first-block {
     display: flex;
+    flex-wrap: wrap
 }
 
 
@@ -248,11 +249,15 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: #eae9e9;
+    margin-bottom: 31px
 }
+
+
 
 .hero__present-timer {
     margin: 37px 43px 0px 0px;
     display: flex;
+    text-wrap: nowrap
 }
 
 .hero__present-timer p {
@@ -2601,6 +2606,49 @@ footer {
     .answers__consult-button {
         margin: 40px 0px 80px 0px;
     }
+}
+
+@media (min-width: 640px) and (max-width: 1420px) {
+    .header__first-block {
+    display: flex;
+    flex-wrap: wrap
+}
+    header {
+        padding-bottom: 74px;
+    }
+}
+
+@media (min-width: 853px) and (max-width: 1020px) {
+    header nav ul {
+    margin-top: 34px;
+    display: flex;
+    max-width: 645px;
+    justify-content: space-between;
+    height: 95px;
+    align-items: flex-end;
+    align-self: center;
+    position: absolute;
+    top: 80px;
+    right: 16vw
+}
+}
+@media (min-width: 640px) and (max-width: 853px) {
+    .header__wrapper {
+        position:relative
+    }
+    header nav ul {
+    margin-top: 34px;
+    display: flex;
+    max-width: 645px;
+    justify-content: space-between;
+    height: 95px;
+    align-items: flex-end;
+    align-self: center;
+    position: absolute;
+    top: 80px;
+    right: 16vw
+}
+    
 }
 
 

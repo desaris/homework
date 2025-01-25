@@ -2631,6 +2631,9 @@ footer {
     top: 80px;
     right: 16vw
 }
+    header {
+    padding-bottom: 154px;
+    }
 }
 @media (min-width: 640px) and (max-width: 853px) {
     header {

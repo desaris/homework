@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </svg>`
     }
     burgerButton.onclick = () => {
-        if (burgerButton.style.zIndex === "1") {
+        if (getComputedStyle(burgerButton).zIndex === "1") {
             overlay.style.zIndex = "98"
             burgerButton.style.zIndex = "101"
             overlay.style.opacity = "1"

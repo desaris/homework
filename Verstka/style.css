@@ -85,13 +85,13 @@ button:not(.advantages__list-more):hover {
 }
 
 
-.hero__section {
+.hero {
     background: url("./img/firstbg.png") no-repeat;
     position: relative;
     padding-bottom: 426px;
 }
 
-.hero__section-background {
+.hero__background {
     position: absolute;
     top: 6px;
     left: 760px;
@@ -100,7 +100,7 @@ button:not(.advantages__list-more):hover {
     pointer-events: none;
 }
 
-.hero__section-background img {
+.hero__background img {
     width: 100%;
 }
 
@@ -226,15 +226,15 @@ body {
     margin-bottom: 10px;
 }
 
-.hero__present-heading img {
+.hero__present-inner img {
     padding: 22px 10px 20px 9px;
 }
 
-.hero__present-text--wrapper {
+.hero__present-text {
     margin-top: 29px;
 }
 
-.hero__present-heading {
+.hero__present-inner {
     display: flex;
     justify-content: space-between;
 }
@@ -267,7 +267,7 @@ body {
     font-size: 20px;
 }
 
-.hero__section-title {
+.hero__title {
     margin-top: 34px;
     font-family: 'Gotham Pro Bold';
     font-weight: 700;
@@ -276,7 +276,7 @@ body {
     color: white;
 }
 
-.hero__section-list {
+.hero__list {
     margin-top: 16px;
     font-family: 'Gotham Pro Light';
     font-weight: 300;
@@ -286,7 +286,7 @@ body {
     margin-left: 45px;
 }
 
-.hero__section-list li {
+.hero__list li {
     list-style: disc;
 }
 
@@ -301,7 +301,7 @@ body {
     flex-direction: column;
 }
 
-.hero__section-buttons {
+.hero__buttons {
     margin: 38px 0px 0px 2px;
     display: flex;
     max-height: 106px;
@@ -375,12 +375,12 @@ body {
 
 /* INVEST */
 
-.invest__section {
+.invest {
     margin-top: -355px;
     padding-bottom: 162px;
 }
 
-.invest__heading {
+.invest__inner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,11 +431,11 @@ body {
     align-items: center;
 }
 
-.lowered-item {
+.lowered--item {
     margin-top: 57px;
 }
 
-.invest__row-item--percentage {
+.invest__item-percentage {
     margin-top: 10px;
     margin-bottom: 2px;
     font-family: var(--font-family);
@@ -445,7 +445,7 @@ body {
     color: #4bd879;
 }
 
-.invest__row-item--money {
+.invest__item-money {
     padding: 5px 12px 5px 12px;
     border-radius: 18px;
     background: #262626;
@@ -473,7 +473,7 @@ body {
     margin-bottom: 34px;
 }
 
-.invest__get {
+.invest__button-get {
     border-radius: 20px;
     box-shadow: inset 0 -4px 0 0 #8f4119, 0 3px 49px -3px rgba(226, 128, 72, 0.76);
     background: linear-gradient(57deg, #dc6b30 0%, #e4864f 42.19%, #ffbe82 72.92%, #e49031 100%);
@@ -488,7 +488,7 @@ body {
 
 /* TOOLS */
 
-.tools__section {
+.tools {
     padding-bottom: 140px;
 }
 
@@ -509,7 +509,7 @@ body {
 
 /* STEPS */
 
-.steps__heading {
+.steps__inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -619,7 +619,7 @@ body {
 
 /* BONUS */
 
-.bonus__section {
+.bonus {
     padding-top: 444px;
     position: relative;
     padding-bottom: 236px;
@@ -717,11 +717,11 @@ body {
 
 /* ADVANTAGES */
 
-.advantages__section {
+.advantages {
     padding-bottom: 144px;
 }
 
-.advantages__heading {
+.advantages__inner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -817,7 +817,7 @@ body {
     margin-top: 64px;
 }
 
-.list-item--sec {
+.item--sec {
     padding: 65px 0px 0px 44px;
 }
 
@@ -1093,7 +1093,7 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
 
 /* MOBILE */
 
-.mobile__section {
+.mobile {
     padding-bottom: 282px;
 }
 
@@ -1154,7 +1154,7 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
     margin-bottom: 25px;
 }
 
-.mobile__sec-first--block {
+.mobile__sec-first {
     position: relative;
 }
 
@@ -1172,7 +1172,7 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
     margin-bottom: 52px;
 }
 
-.mobile__sec-second--block {
+.mobile__sec-second {
     display: flex;
     flex-direction: column;
     max-width: 539px;
@@ -1240,7 +1240,7 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
 
 /* ANSWERS */
 
-.answers__section {
+.answers {
     padding-bottom: 186px;
 }
 
@@ -1300,11 +1300,11 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
 }
 
 
-.answers__accordion-item--open:last-child {
+.answers__accordion-open:last-child {
     margin-bottom: 0;
 }
 
-.answers__accordion-item--open {
+.answers__accordion-open {
     width: 100%;
     height: 100%;
     transition: 200ms;
@@ -1326,7 +1326,7 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
     transform: rotate(180deg);
 }
 
-.accordion__hidden {
+.accordion--hidden {
     opacity: 0;
     height: 0;
     visibility: hidden;
@@ -1374,7 +1374,7 @@ input[type="radio"]:checked+.custom-checkbox svg circle {
 
 /* APPLICATION */
 
-.application__section {
+.application {
     padding-bottom: 138px;
 }
 
@@ -1664,9 +1664,87 @@ footer {
 .burger__menu-wrapper {
     display: none;
     margin-right: 14px;
+    z-index: 1;
+}
+
+.overlay {
+    display: none;
+    z-index: -1;
+}
+.header__top {
+    display: none;
 }
 
 @media (max-width: 640px) {
+
+     .overlay {
+        display: flex;
+        transition: 300ms;
+        background: rgba(33, 32, 32, 0.8);
+        z-index: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+    
+    .header__top {
+        transition: 500ms;
+        transform: translateX(100%);
+        position: fixed;
+        min-width: 232px;
+        right: 0px;
+        bottom: 0;
+        top: 0;
+        background: #0E0E12;
+        z-index: 100;
+        display: flex;
+        border-left: 1px solid green;
+    }
+    
+    .header__switch-language--mobile {
+        display: flex;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 32px;
+        align-items: center;
+        margin-bottom: 76px;
+    }
+    
+    .header__switch-language--mobile p {
+        margin: 0px 4px 0px 6px;
+    }
+    
+    .header__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+    }
+    
+    .header__inner nav a {
+        margin-bottom: 20px;
+    }
+    
+    .header__inner nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 250%;
+    }
+    
+    .header__inner nav a {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+    }
 
     .appication__title {
         margin-bottom: 44px
@@ -1688,13 +1766,13 @@ footer {
         max-width: 94px;
     }
 
-    .hero__present-heading {
+    .hero__present-inner {
         flex-direction: column-reverse;
         position: relative;
         padding-top: 14px;
     }
 
-    .hero__present-heading img {
+    .hero__present-inner img {
         position: absolute;
     }
 
@@ -1710,15 +1788,15 @@ footer {
         padding-right: 86px;
     }
 
-    .hero__section-title {
+    .hero__title {
         font-size: 30px;
     }
 
-    .hero__section-list {
+    .hero__list {
         margin-left: 18px;
     }
 
-    .hero__section-list {
+    .hero__list {
         font-size: 12px;
     }
 
@@ -1747,7 +1825,7 @@ footer {
         top: 26px;
     }
 
-    .hero__present-text--wrapper {
+    .hero__present-text {
         margin-top: 5px;
     }
 
@@ -1776,7 +1854,7 @@ footer {
         margin-right: 8px;
     }
 
-    .hero__section-buttons button {
+    .hero__buttons button {
         font-size: 7px;
     }
 
@@ -1808,15 +1886,15 @@ footer {
         height: 70px;
     }
 
-    .invest__row-item--percentage {
+    .invest__item-percentage {
         font-size: 12px;
     }
 
-    .invest__row-item--money {
+    .invest__item-money {
         font-size: 10px;
     }
 
-    .lowered-item {
+    .lowered--item {
         margin-top: 0;
     }
 
@@ -1830,7 +1908,7 @@ footer {
         margin-bottom: 14px;
     }
 
-    .invest__get {
+    .invest__button-get {
         font-size: 8px;
         padding: 10px 18px 10px 18px;
         border-radius: 4px;
@@ -1866,7 +1944,7 @@ footer {
         font-size: 9px;
     }
 
-    .advantages__section {
+    .advantages {
         padding-bottom: 80px;
     }
 
@@ -1996,7 +2074,7 @@ footer {
         font-size: 12px;
     }
 
-    .answers__accordion-item--open {
+    .answers__accordion-open {
         font-size: 10px;
     }
 
@@ -2004,7 +2082,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    .answers__accordion-item--open {
+    .answers__accordion-open {
         margin-bottom: 20px;
     }
 
@@ -2194,7 +2272,7 @@ footer {
         display: none;
     }
 
-    .first-group {
+    .first--group {
         top: 22px;
         left: 0;
     }
@@ -2203,7 +2281,7 @@ footer {
         width: 310px;
     }
 
-    .sec-group {
+    .sec--group {
         bottom: 138px;
         left: 44px;
         position: absolute;
@@ -2274,11 +2352,11 @@ footer {
         height: 110%;
     }
 
-    .mobile__section {
+    .mobile {
         padding-bottom: 160px;
     }
 
-    .briefcase__section {
+    .briefcase {
         padding-bottom: 160px;
     }
 
@@ -2321,7 +2399,7 @@ footer {
         padding-bottom: 160px;
     }
 
-    .answers__section {
+    .answers {
         padding-bottom: 160px;
     }
 
@@ -2386,28 +2464,28 @@ footer {
 }
 
 @media (max-width: 420px) {
-    .hero__section-background {
+    .hero__background {
         top: 500px;
         left: -80px;
     }
 }
 
 @media (min-width: 420px) and (max-width: 470px) {
-    .hero__section-background {
+    .hero__background {
         top: 450px;
         left: -80px;
     }
 }
 
 @media (min-width: 470px) and (max-width: 494px) {
-    .hero__section-background {
+    .hero__background {
         top: 400px;
         left: -80px;
     }
 }
 
 @media (min-width: 494px) and (max-width: 640px) {
-    .hero__section-background {
+    .hero__background {
         top: 321px;
         left: -8px;
     }
@@ -2422,7 +2500,7 @@ footer {
 
 
 @media (max-width: 330px) {
-    .hero__section-background {
+    .hero__background {
         top: 600px;
     }
 }
@@ -2488,7 +2566,7 @@ footer {
     }
 }
 @media (min-width: 640px) and (max-width: 1620px) {
-    .hero__section-background {
+    .hero__background {
         display:none
     }
 }

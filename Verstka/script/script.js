@@ -199,19 +199,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     let accWrapper = document.querySelectorAll(".answers__accordion-item");
-    let accHidden = document.querySelectorAll(".answers__accordion-item--open");
+    let accHidden = document.querySelectorAll(".answers__accordion-open");
     let arrowHidden = document.querySelectorAll(".answers__accordion-hidden--arrow")
     let arrowColored = document.querySelectorAll(".arrow-colored")
     accWrapper.forEach((el, index) => {
         el.onclick = () => {
-            accHidden[index].classList.toggle("accordion__hidden")
+            accHidden[index].classList.toggle("accordion--hidden")
             arrowHidden[index].classList.toggle("arrow-accordion")
             arrowHidden[index].classList.toggle("colored")
         }
     })
     accHidden.forEach((el, index) => {
         el.onclick = () => {
-            accHidden[index].classList.toggle("accordion__hidden")
+            accHidden[index].classList.toggle("accordion--hidden")
             arrowHidden[index].classList.toggle("arrow-accordion")
             arrowHidden[index].classList.toggle("colored")
         }

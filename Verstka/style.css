@@ -172,9 +172,6 @@ header nav ul a{
     margin-right: 85px;
 }
 
-.header nav ul a:nth-child(3) {
-    margin-right: 85px
-}
 
 header nav ul a:last-child {
     margin-right: 0;

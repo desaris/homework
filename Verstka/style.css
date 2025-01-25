@@ -2633,6 +2633,9 @@ footer {
 }
 }
 @media (min-width: 640px) and (max-width: 853px) {
+    header {
+        padding-bottom: 154px;
+    }
     .header__first-block {
         flex-wrap: nowrap
     }
@@ -2650,6 +2653,7 @@ footer {
     position: absolute;
     top: 80px;
     right: 16vw
+    flex-wrap: wrap;
 }
     
 }

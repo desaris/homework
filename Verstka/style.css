@@ -2633,6 +2633,9 @@ footer {
 }
 }
 @media (min-width: 640px) and (max-width: 853px) {
+    .header__first-block {
+        flex-wrap: nowrap
+    }
     .header__wrapper {
         position:relative
     }

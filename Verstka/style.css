@@ -85,8 +85,6 @@ button:not(.advantages__list-more):hover {
 }
 
 
-
-
 .hero__section {
     background: url("./img/firstbg.png") no-repeat;
     position: relative;
@@ -174,7 +172,11 @@ header nav ul a{
     margin-right: 85px;
 }
 
-header nav ul li:last-child {
+.header nav ul a:nth-child(3) {
+    margin-right: 85px
+}
+
+header nav ul a:last-child {
     margin-right: 0;
 }
 

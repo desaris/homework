@@ -1903,10 +1903,18 @@ footer {
         margin-top: 0;
     }
 
-    .invest__row {
-        margin-left: -68px;
+       .invest__row {
+        margin-left: -155px;
         margin-bottom: 18px;
+        overflow-x: scroll;
+        padding: 0px 130px 0px 107px;
+        width: 170%;
+        display: inline-flex;
     }
+
+    .invest__row::-webkit-scrollbar {
+    display: none; /* Скрывает скроллбар */
+}
 
     .invest__subtext {
         font-size: 12px;

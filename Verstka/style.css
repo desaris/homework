@@ -1725,7 +1725,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         height: 95vh;
-        margin-left: -52px;
+        margin-left: 34px;
     }
     
     .header__inner nav a {

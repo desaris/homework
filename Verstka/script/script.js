@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Бургер
 
-    const burgerButton = document.querySelector(".burger__menu-wrapper")
-    const overlay = document.querySelector(".overlay")
-    const burgerOpened = document.querySelector(".header__top")
-    let links = document.querySelectorAll(".mobile__link")
+    const burgerButton = document.querySelector(".burger__menu-wrapper");
+    const overlay = document.querySelector(".overlay");
+    const burgerOpened = document.querySelector(".header__top");
+    let links = document.querySelectorAll(".mobile__link");
     function burgerOpenedOff() {
-        overlay.style.zIndex = "0"
+        overlay.style.zIndex = "-1"
         burgerButton.style.zIndex = "1"
         overlay.style.opacity = "0"
         burgerOpened.style.transform = "translateX(-100%)"

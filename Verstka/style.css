@@ -155,7 +155,14 @@ header nav ul li {
     font-weight: 400;
     font-size: 18px;
     color: #fff;
-    margin-right: 95px;
+}
+
+header nav ul a{
+    margin-right: 95px
+}
+
+.header__buttons-open {
+    text-wrap: nowrap
 }
 
 .header__nav-ref {

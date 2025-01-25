@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const burgerOpened = document.querySelector(".header__top")
     let links = document.querySelectorAll(".mobile__link")
     function burgerOpenedOff() {
-        overlay.style.zIndex = "-1"
+        overlay.style.zIndex = "0"
         burgerButton.style.zIndex = "1"
         overlay.style.opacity = "0"
         burgerOpened.style.transform = "translateX(-100%)"
@@ -41,12 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
             burgerOpenedOff();
         }
     }
-    overlay.onclick = burgerOpenedOff
+    overlay.onclick = burgerOpenedOff;
 
     links.forEach(el => {
-        el.onclick = burgerOpenedOff
+        el.onclick = burgerOpenedOff;
     });
-
 
     // Таймер на баннер
 

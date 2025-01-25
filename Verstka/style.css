@@ -2652,7 +2652,7 @@ footer {
     align-self: center;
     position: absolute;
     top: 80px;
-    right: 16vw
+    right: 16vw;
     flex-wrap: wrap;
 }
     
